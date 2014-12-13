@@ -1,0 +1,29 @@
+.table-bookmark {
+  overflow: hidden;
+}
+
+.bookmark {
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-left-color: $brand-primary;
+}
+
+.bookmark-default {
+  border-left-color: $brand-primary;
+}
+
+.bookmark-success {
+  border-left-color: $brand-success;
+}
+
+.bookmark-info {
+  border-left-color: $brand-info;
+}
+
+.bookmark-warning {
+  border-left-color: $brand-warning;
+}
+
+.bookmark-danger {
+  border-left-color: $brand-danger;
+}

@@ -1,0 +1,20 @@
+$wireframe-mobile-width:   380px;
+$wireframe-mobile-height:  600px;
+
+.wireframe {
+  width: 100%;
+  border: 1px solid $gray-light;
+}
+
+.wireframe-mobile {
+  width: 90%;
+  max-width: $wireframe-mobile-width;
+  height: 90%;
+  max-height: $wireframe-mobile-height;
+}
+
+.wireframe-fixed {
+  position: fixed;
+  margin: auto;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
