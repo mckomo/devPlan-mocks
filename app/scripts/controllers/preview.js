@@ -9,5 +9,5 @@
  */
 angular.module('angularApp')
   .controller('PreviewCtrl', function ($scope, $routeParams) {
-    $scope.mockUrl = '/#/mock/' + $routeParams.mock;
+    $scope.mockUrl = '#/mock/' + $routeParams.mockName;
   });

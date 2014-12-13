@@ -20,11 +20,11 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/preview/:mock', {
+      .when('/preview/:mockName', {
         templateUrl: 'views/preview.html',
         controller: 'PreviewCtrl'
       })
-      .when('/mock/:name', {
+      .when('/mock/:mockName', {
         templateUrl: 'views/mock.html',
         controller: 'MockCtrl'
       })

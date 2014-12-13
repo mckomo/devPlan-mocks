@@ -9,5 +9,5 @@
  */
 angular.module('angularApp')
   .controller('MockCtrl', function ($scope, $routeParams) {
-    $scope.mockPath = 'views/mocks/' + $routeParams.name + '.html';
+    $scope.mockPath = 'views/mocks/' + $routeParams.mockName + '.html';
   });
