@@ -37,6 +37,7 @@ angular
       'register',
       'timetable_v0',
       'timetable_v1',
+      'timetable_v2',
     ];
     return list;
   });

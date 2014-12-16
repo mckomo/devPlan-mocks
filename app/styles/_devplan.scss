@@ -1,3 +1,7 @@
+.timetable ul {
+  margin-bottom: $padding-small-vertical;
+}
+
 .table-bookmark {
   overflow: hidden;
 }
@@ -5,10 +9,14 @@
 .bookmark {
   border-left-width: 10px;
   border-left-style: solid;
-  border-left-color: $brand-primary;
+  border-left-color: $gray-light
 }
 
-.bookmark-default {
+.bookmark-slim {
+  border-left-width: 7px;
+}
+
+.bookmark-primary {
   border-left-color: $brand-primary;
 }
 
