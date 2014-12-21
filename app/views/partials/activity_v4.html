@@ -1,0 +1,25 @@
+<tr class="active">
+  <td colspan="2">
+    <strong>{{ day.date }}</strong>
+  </td>
+</tr>
+<tr ng-repeat="activity in day.activities">
+  <td>
+    <ul class="list-unstyled text-right">
+      <li>11:20</li>
+      <small class="text-muted">13:00</small>
+    </ul>
+  </td>
+  <td class="bookmark bookmark-sm bookmark-short bookmark-{{ activity.color }}">
+    <div >
+      {{ activity.name }}
+    </div>
+    <div class="small">
+      <!-- <div ng-if="activity.notes" class="text-danger">{{ activity.notes }}</div> -->
+      <ul class="list-inline">
+        <!-- <li class="small"><i class="fa fa-clock-o"></i> {{ activity.time }}</li> -->
+        <li class="small"><i class="fa fa-map-marker"> </i> {{ activity.place }}</li>
+      </ul>
+    </div>
+  </td>
+</tr>

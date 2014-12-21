@@ -35,9 +35,10 @@ angular
   .factory('MockList', function() {
     var list = [
       'register',
-      'timetable_v0',
       'timetable_v1',
       'timetable_v2',
+      'timetable_v3',
+      'timetable_v4',
     ];
     return list;
   });

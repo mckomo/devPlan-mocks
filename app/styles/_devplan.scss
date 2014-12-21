@@ -2,36 +2,51 @@
   margin-bottom: $padding-small-vertical;
 }
 
-.table-bookmark {
-  overflow: hidden;
-}
-
 .bookmark {
-  border-left-width: 10px;
-  border-left-style: solid;
-  border-left-color: $gray-light
+  padding-left: ($table-cell-padding + 3) !important;
+  position: relative;
 }
 
-.bookmark-slim {
-  border-left-width: 7px;
+.bookmark:after {
+  content: '';
+  height: 100%;
+  width: 5px;
+  position: absolute;
+  left: 0;
+  top: 0; 
+  display: block;
+  background-color: $gray-light;
 }
 
-.bookmark-primary {
-  border-left-color: $brand-primary;
+.bookmark-md:after {
+  width: 3px;
 }
 
-.bookmark-success {
-  border-left-color: $brand-success;
+.bookmark-sm:after {
+  width: 2px;
 }
 
-.bookmark-info {
-  border-left-color: $brand-info;
+.bookmark-short:after {
+  height: 84%;
+  top: 8%; 
 }
 
-.bookmark-warning {
-  border-left-color: $brand-warning;
+.bookmark-primary:after {
+  background-color: $brand-primary;
 }
 
-.bookmark-danger {
-  border-left-color: $brand-danger;
+.bookmark-success:after {
+  background-color: $brand-success;
+}
+
+.bookmark-info:after {
+  background-color: $brand-info;
+}
+
+.bookmark-warning:after {
+  background-color: $brand-warning;
+}
+
+.bookmark-danger:after {
+  background-color: $brand-danger;
 }
