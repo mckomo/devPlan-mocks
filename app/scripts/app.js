@@ -39,6 +39,9 @@ angular
       'timetable_v2',
       'timetable_v3',
       'timetable_v4',
+      'timetable_v5',
+      'bookmark_v1',
+      'bookmark_v2',
     ];
     return list;
   });
