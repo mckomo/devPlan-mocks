@@ -34,7 +34,6 @@ angular
   })
   .factory('MockList', function() {
     var list = [
-      'register',
       'timetable_v1',
       'timetable_v2',
       'timetable_v3',
@@ -42,6 +41,7 @@ angular
       'timetable_v5',
       'bookmark_v1',
       'bookmark_v2',
+      'group_selection_v1'
     ];
     return list;
   });

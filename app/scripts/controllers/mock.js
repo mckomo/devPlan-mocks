@@ -10,6 +10,17 @@
 angular.module('angularApp')
   .controller('MockCtrl', function ($scope, $routeParams) {
     $scope.mockPath = 'views/mocks/' + $routeParams.mockName + '.html';
+    $scope.groups = [
+      {name: 'KrDzIs3011Si', selected: false},
+      {name: 'KrDzIs3011Io', selected: false},
+      {name: 'KrDUIs1011', selected: true},
+      {name: 'KrDUIs1012', selected: false},
+      {name: 'KrDUIs1013', selected: false},
+      {name: 'KrDUFr1012', selected: false},
+      {name: 'KrDUFr1013', selected: false},
+      {name: 'KrDUZd1012', selected: true},
+      {name: 'KrDUZd1013', selected: false}
+    ];
     $scope.timetable = [
       { 
         date: 'Poniedziałek, 08 Grudnia 2014', 

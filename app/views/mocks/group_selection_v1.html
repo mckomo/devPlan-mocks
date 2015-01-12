@@ -1,0 +1,42 @@
+<div class="navbar navbar-inverse navbar-static-top" style="margin-bottom: 0;">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle zapisz" style="font-weight:200">
+        Zapisz
+      </button>
+      <a href="#" class="navbar-brand">Wybór grup</a>
+    </div>
+  </div>
+</div>
+<div class="container" style="padding: 0;">
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table timetable">
+        <tbody>
+          <tr class="text-muted">
+            <td>Szukaj</td>
+            <td class="text-right"><i class="fa fa-search"></i></td>
+          </tr>
+          <tr class="active">
+            <td colspan="2">
+              <strong>Wybrane grupy</strong>
+            </td>
+          </tr>
+          <tr ng-repeat="group in groups"  ng-if="group.selected">
+            <td>{{ group.name }}</td>
+            <td class="text-right"><i class="fa fa-check"></i></td>
+          </tr>
+          <tr class="active">
+            <td colspan="2">
+              <strong>Wszystkie grupy</strong>
+            </td>
+          </tr>
+          <tr ng-repeat="group in groups">
+            <td>{{ group.name }}</td>
+            <td class="text-right" ><i class="fa fa-check" ></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
