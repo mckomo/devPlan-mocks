@@ -33,7 +33,7 @@
           </tr>
           <tr ng-repeat="group in groups">
             <td>{{ group.name }}</td>
-            <td class="text-right" ><i class="fa fa-check" ></i></td>
+            <td class="text-right"><i class="fa fa-check" ng-show="group.selected"></i></td>
           </tr>
         </tbody>
       </table>
