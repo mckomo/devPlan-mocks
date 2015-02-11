@@ -57,7 +57,7 @@ angular.module('angularApp')
         ] 
       },
       { 
-        date: '10 grudnia 2014, środa', 
+        date: '10 grudnia, środa', 
         activities: [
           { 
             name: 'Język angielski', 
