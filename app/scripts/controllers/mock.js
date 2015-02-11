@@ -23,7 +23,7 @@ angular.module('angularApp')
     ];
     $scope.timetable = [
       { 
-        date: 'Poniedziałek, 08 Grudnia 2014', 
+        date: '08 grudnia, poniedziałek', 
         activities: [
           { 
             name: 'Matematyka dyskretna', 
@@ -33,17 +33,17 @@ angular.module('angularApp')
             type: 'wyklad', color: 'primary'
           },
           { 
-            name: 'Hurtowanie danych', 
+            name: 'Seminarium', 
             time: '13:05 – 14:35', 
             place: 'Paw. F s. 102', 
-            groups: ['KrDUIs1011'], 
-            type: 'ćwiczenia', 
-            color: 'warning' 
+            groups: ['SemIs2013'], 
+            type: 'seminarium', 
+            color: 'info' 
           }
         ] 
       }, 
       { 
-        date: 'Wtorek, 09 Grudnia 2014', 
+        date: '09 grudnia, wtorek', 
         activities: [
           { 
             name: 'Inżynieria oprogramowania', 
@@ -57,7 +57,7 @@ angular.module('angularApp')
         ] 
       },
       { 
-        date: 'Środa, 10 Grudnia 2014', 
+        date: '10 grudnia 2014, środa', 
         activities: [
           { 
             name: 'Język angielski', 
@@ -78,7 +78,7 @@ angular.module('angularApp')
         ] 
       },
       { 
-        date: 'Czwartek, 11 Grudnia 2014', 
+        date: '11 grudnia, czwartek', 
         activities: [
           { 
             name: 'Inżynieria oprogramowania', 

@@ -41,7 +41,8 @@ angular
       'timetable_v5',
       'bookmark_v1',
       'bookmark_v2',
-      'group_selection_v1'
+      'group_selection_v1',
+      'welcome_screen'
     ];
     return list;
   });
